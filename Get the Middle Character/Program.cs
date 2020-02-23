@@ -17,7 +17,6 @@ namespace Get_the_Middle_Character
             if (s.Length % 2 == 0) return new string(s.Skip(s.Length / 2 - 1).Take(2).ToArray());
             else if (s.Length % 2 != 0) return s[s.Length / 2].ToString();
             return "";
-            // making comment
         }
     }
 }
